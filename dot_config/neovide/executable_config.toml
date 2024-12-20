@@ -1,0 +1,4 @@
+[font]
+normal = { family = "FiraCode Nerd Font", style = "Normal" }
+size = 14
+allow_float_size = true

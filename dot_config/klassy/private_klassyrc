@@ -1,0 +1,17 @@
+[Global]
+LookAndFeelSet=org.kde.klassydarktraditional.desktop
+
+[Style]
+MenuOpacity=30
+
+[TitleBarOpacity]
+ActiveTitleBarOpacity=30
+InactiveTitleBarOpacity=30
+
+[TitleBarSpacing]
+TitleBarBottomMargin=2
+TitleBarTopMargin=2
+
+[Windeco]
+ButtonIconStyle=StyleTraditional
+CornerRadius=2

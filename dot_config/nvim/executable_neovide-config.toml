@@ -1,0 +1,4 @@
+[font]
+normal = { family = "JetbrainsMono Nerd Font", style = "Normal" }
+size = 15
+allow_float_size = true

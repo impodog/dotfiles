@@ -1,0 +1,44 @@
+# Global program preferences
+export EDITOR='nvim'
+export PAGER='most'
+
+# Program aliases
+
+# Path settings
+export PATH=$PATH:/usr/local/bin:"$HOME"/.cargo/bin:/home/impodog/Workspace/Shell/Shell/my-scripts
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib
+export RUSTUP_UPDATE_ROOT=https://mirrors.tuna.tsinghua.edu.cn/rustup/rustup
+export RUSTUP_DIST_SERVER=https://mirrors.tuna.tsinghua.edu.cn/rustup
+export ANDROID_HOME=/home/impodog/Android/Sdk
+export ANDROID_NDK_ROOT=/home/impodog/Android/Sdk/ndk/27.0.12077973/
+
+# fcitx5 (please copy these to environment!)
+export GTK_IM_MODULE=fcitx
+export QT_IM_MODULE=fcitx
+export SDL_IM_MODULE=fcitx
+export GLFW_IM_MODULE=fcitx
+export XMODIFIERS=@im=fcitx
+
+# ZSH configurations
+unsetopt correct_all
+setopt correct
+
+# Bubblewrap
+alias bwraprun="bwrap \
+    --unshare-user-try \
+    --unshare-ipc \
+    --unshare-pid \
+    --unshare-uts \
+    --unshare-cgroup-try \
+    --ro-bind /usr /usr \
+    --symlink /usr/bin /bin \
+    --symlink /usr/lib /lib \
+    --symlink /usr/lib /lib64 \
+    --symlink /usr/bin /sbin \
+    --dir /tmp \
+    --dir /var \
+    --clearenv --setenv PATH /usr/local/sbin:/usr/local/bin:/usr/bin --setenv HOME ~ --setenv WINEDEBUG -all \
+    --dev-bind /sys/devices/system/cpu /sys/devices/system/cpu \
+    --proc /proc \
+    --setenv XDG_RUNTIME_DIR '/run/user/1000' --dev-bind /run/user/1000/pulse /run/user/1000/pulse \
+    --setenv DISPLAY ':0'"

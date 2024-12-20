@@ -1,0 +1,46 @@
+exit
+fib 20
+fib 40
+fib 100
+fib  1000
+fib 10
+let fib x = if x < 2 then 1 else fib (x - 1) + fib (x - 2)
+let square x = x * x in square 5
+print 1
+print a
+print "Dog"
+exit
+1 %^& 3
+let (%^&) a b = a + b
+3 * 4
+let (*) = (+)
+let (a::String -> b::String) = a + b
+(Num String)
+putStrLn 1
+a
+a =1
+la
+apply addone square 2
+apply square addone 2
+let addone x = x + 1
+apply square square 2
+apply square square 1
+apply square square x
+let apply f g x = f (g x)
+let apply f g x = f g x
+apply square (square 3)
+apply square square 3
+apply square 3
+let apply f x = f x
+square 5
+let square x = x * x
+let square x = x * xz
+import
+help
+quot
+quit
+exit
+do {
+do
+a
+a = 1

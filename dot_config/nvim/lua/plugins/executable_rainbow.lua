@@ -1,0 +1,5 @@
+return {
+    {
+        "frazrepo/vim-rainbow",
+    },
+}

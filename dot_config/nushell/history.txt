@@ -1,0 +1,5 @@
+ls
+config nu
+exit
+ls
+exit

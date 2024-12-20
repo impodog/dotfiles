@@ -1,0 +1,14 @@
+Update plugins for the new lazy
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch master
+# Your branch is up to date with 'origin/master'.
+#
+# Changes to be committed:
+#	modified:   lazy-lock.json
+#	modified:   lazyvim.json
+#	modified:   lua/plugins/disable.lua
+#	modified:   lua/plugins/tab.lua
+#	renamed:    lua/plugins/ultimate-autopair.lua -> unused/ultimate-autopair.lua
+#
