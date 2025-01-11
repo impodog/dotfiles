@@ -23,6 +23,12 @@ export XMODIFIERS=@im=fcitx
 unsetopt correct_all
 setopt correct
 
+# thefuck setup
+eval "$(thefuck --alias)"
+
+# zoxide setup
+eval "$(zoxide init zsh)"
+
 # Bubblewrap
 alias bwraprun="bwrap \
     --unshare-user-try \
