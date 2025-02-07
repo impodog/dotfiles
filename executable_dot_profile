@@ -48,3 +48,5 @@ alias bwraprun="bwrap \
     --proc /proc \
     --setenv XDG_RUNTIME_DIR '/run/user/1000' --dev-bind /run/user/1000/pulse /run/user/1000/pulse \
     --setenv DISPLAY ':0'"
+
+# Custom shortcuts
