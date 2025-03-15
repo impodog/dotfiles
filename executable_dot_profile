@@ -6,6 +6,7 @@ export PAGER='most'
 
 # Path settings
 export PATH=$PATH:/usr/local/bin:"$HOME"/.cargo/bin:/home/impodog/Workspace/Shell/Shell/my-scripts
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib
 export RUSTUP_UPDATE_ROOT=https://mirrors.tuna.tsinghua.edu.cn/rustup/rustup
 export RUSTUP_DIST_SERVER=https://mirrors.tuna.tsinghua.edu.cn/rustup
