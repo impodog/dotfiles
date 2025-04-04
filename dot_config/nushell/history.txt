@@ -3,3 +3,60 @@ config nu
 exit
 ls
 exit
+ls
+exit
+cd .config/nushell/
+ls
+z
+ls
+rm env.nu
+rm config.nu
+exit
+config nu
+cd .config/nushell/
+ls
+help
+help editor
+help edit
+help
+help --find editor
+reload
+config nu
+config dog
+config env
+explore
+ls | explore
+config nu
+gdnb
+gdb
+exit
+ln
+help prepend
+help prepend | explore
+help append | explore
+config env
+exit
+carho
+cargo --list
+config env
+config nu
+exit
+config env
+exit
+z
+z imu
+exit
+config env
+exit
+ls
+config nu
+config env
+config nu
+zsh
+exit
+exit
+pr
+systemctl
+a (<\n>)
+nvim ~/.config/nvim/
+chezmoi

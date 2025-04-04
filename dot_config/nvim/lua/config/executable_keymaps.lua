@@ -5,3 +5,4 @@ local map = vim.api.nvim_set_keymap
 local opt = { noremap = true, silent = true }
 
 -- Remappings
+map("n", "x", '"_x', opt)

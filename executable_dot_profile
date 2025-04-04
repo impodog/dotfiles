@@ -1,8 +1,9 @@
 # Global program preferences
 export EDITOR='nvim'
-export PAGER='most'
+export PAGER='less'
 
 # Program aliases
+alias gdb='cgdb'
 
 # Path settings
 export PATH=$PATH:/usr/local/bin:"$HOME"/.cargo/bin:/home/impodog/Workspace/Shell/Shell/my-scripts
@@ -23,6 +24,15 @@ export XMODIFIERS=@im=fcitx
 # ZSH configurations
 unsetopt correct_all
 setopt correct
+bindkey -v
+# Add text object extension -- eg ci" da(:
+autoload -U select-quoted
+zle -N select-quoted
+for m in visual viopp; do
+    for c in {a,i}{\',\",\`}; do
+        bindkey -M $m $c select-quoted
+    done
+done
 
 # thefuck setup
 eval "$(thefuck --alias)"
