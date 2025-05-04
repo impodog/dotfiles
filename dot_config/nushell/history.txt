@@ -60,3 +60,815 @@ systemctl
 a (<\n>)
 nvim ~/.config/nvim/
 chezmoi
+exit
+chezmoi cd
+cat ~/Workspace/
+cd ~/Workspace/
+ls
+cd ..
+cd Program/
+ls
+cd ..
+ls
+cd .config/
+ls
+cat utility.txt
+paru hed
+paru bvi
+paru hex
+paru hexer
+hexer gdb
+hexer
+edit
+help edit
+nvim utility.txt
+exit
+cd .config/nushell/
+ls
+nv
+cat nv
+where nv
+config nu
+config env
+config nu
+exit
+ls
+config nu
+ls
+lsblk
+fdisk /dev/sdb
+sudo fdisk /dev/sdb
+mkfs ntfs -f /dev/sdb1
+sudo mkfs.ntfs -f /dev/sdb1
+sudo mount /dev/sdb1 ~/Temp/Red/
+cd Downloads/
+ls
+cd ~/.config/nushell/
+ls
+config login
+touch plugin.nu
+nv
+zsh
+exit
+exit
+cd ~/.config/nushell/
+ls
+nv
+git-update-repo
+exit
+cd ~/Temp/
+git clone https://github.com/catppuccin/nushell.git catppuccin
+plugin list
+cd ~/.config/nushell/
+ls
+nv
+exit
+exit
+exit
+ls
+ls | sort-by modif
+ls | sort-by modified
+help sort
+help sort-by
+sort
+sort 1
+;s
+ls
+z imu
+nv
+git status
+git add .
+cd Temp/
+ls
+cargo new compiler/imuc_derive
+cargo add proc-macro2 -p imuc_derive
+git clone https://github.com/nushell/nushell.git --depth 1
+cargo add quote -p imuc_derive
+cargo add syn -p imuc_derive
+cargo new compiler/imuc_derive
+cargo add syn -p imuc_derive
+cargo add quote -p imuc_derive
+cargo add proc-macro2 -p imuc_derive
+nv
+git add .
+git commit
+git --help
+config nu 
+z imu
+git commit
+exit
+git push
+exit
+cd ~/Temp/nushell/
+ls
+cd crates/
+ls
+cd nu_plugin_gstat/
+ls
+cargo install --path .
+config env
+exit
+cd ~/Temp/nushell/
+ls
+cd crates/nu_plugin_g
+cd crates/nu_plugin_gstat/
+ls
+cargo install --path .
+ls
+nvim Cargo.toml
+rustup update
+cargo install --path .
+plugin add
+plugin add nu_plugin_gstat
+nu_plugin_gstat
+plugin add .
+plugin add ~/.cargo/bin/nu_plugin_gstat
+exit
+z imu
+ls
+git status
+gs
+plugin add ~/.cargo/bin/nu_plugin_gstat
+git status
+plugin list
+gstat
+plugin list
+neofetch
+fastfetch
+gstat
+vi
+vim
+nvim .profile
+config env
+config nu
+echo $EDITOR
+echo $env/EDITOR
+echo $env.EDITOR
+zsh
+nvim -vi
+exit
+exit
+exit
+ls
+nv
+ya
+jq
+rustup update
+rustup component add rust-analyzer
+gstat
+nv
+nvim
+nvim ~/.config/nvim/
+nv
+nvim ~/.config/nvim/
+nv
+git add .
+gstat
+git add .
+gstat
+git add .
+nv
+git add .
+gstat
+cargo check -p imuc_parser
+cargo check -p imuc_rules
+git commit
+z imu
+tokei
+git push
+sudo systemctl poweroff
+nvim
+rustup update
+paru
+sudo systemctl reboot
+lsblk
+stat
+stat -fc /dev/sdb1
+stat -fc %c
+stat -fc %s
+blkid
+lsblk
+fstyp
+ls
+df
+tune2fs
+man tune2fs
+paru fstyp
+lsblk -f
+sudo fdisk /dev/sdb
+sudo umount /dev/sdb
+sudo umount /dev/sdb1
+sudo fdisk /dev/sdb
+lsblk
+sudo fdisk /dev/sdb
+ls
+z imu
+help
+help mkfs.ntfs
+man mkfs.ntfs
+sudo mkfs.ntfs -L "N" /dev/sdb1
+sudo mkfs.ntfs -Q -L "N" /dev/sdb1
+sudo umount /dev/sdb1
+z imu
+nv
+git add .
+nv
+git add .
+cargo check --all
+git add .
+gstat
+fzf
+cd
+fzf
+sudo pacman -R dolphin
+sudo pacman -S dolphin
+cd Downloads/
+ls | grep Summer
+help
+ls | get 1
+ls | get 2
+ls | grep Summer
+ls | grep Summer | get name
+ls | grep Summer | get filename
+ls | grep Summer | get 2
+ls | grep Summer | get 1
+ls | grep Summer
+ls | where name
+ls | where "Summer" in name
+config nu
+y
+exit
+exit
+reedline
+btop
+paru
+rustup update
+nvim
+sudo systemctl reboot
+z imu
+nv
+cargo check --all
+git add .
+ls
+cp ./Downloads/archlinux-2025.04.01-x86_64.iso /mnt/storage/Software/
+fuck
+sudo cp ./Downloads/archlinux-2025.04.01-x86_64.iso /mnt/storage/Software/
+cd /mnt/storage/Software/
+ls
+ls | where "arch" in name
+ls | sort-by name
+rm  archlinux-2025.02.01-x86_64.iso
+sudo rm  archlinux-2025.02.01-x86_64.iso
+rm ubuntu-22.04.3-desktop-amd64.iso
+sudo rm ubuntu-22.04.3-desktop-amd64.iso
+sudo rm valgrind-3.22.0.tar.bz2
+paru
+sudo systemctl poweroff
+rustup update
+paru
+nvim
+sudo systemctl reboot
+yazi
+ls
+yazi --help
+y imu
+y
+nv
+gstat
+git restore imuc_ctx/src/err
+git restore --staged imuc_ctx/src/err
+git add .
+git commit
+git push
+sudo systemctl poweroff
+z imu
+ls
+glow README.md
+paru
+glow README.md | explore
+README.md | explore
+read README.md | explore
+ps
+ps sort-by mem
+ps | sort-by mem
+ps | sort-by mem | rev
+ps | sort-by mem | reverse
+read
+open README.md
+open README.md | explore
+ls
+ls | sort-by reverse name
+ls | sort-by name reverse
+ls | sort-by rev name
+ls | sort-by (rev name)
+ls | sort-by (rev $name)
+nv
+cargo check --all
+cargo clean
+cargo check --all
+git add .
+nv
+git add .
+git commit
+git push
+tokei
+git status
+git tree
+cd Workspace/Stu/Cpp/2025/Contest/
+ls
+mkdir 4-13
+cd 4-13
+ln ~/Workspace/Stu/run.sh .
+ln ~/Workspace/Stu/templatis.cpp .
+ls ..
+ls .. | sort-by modified size
+ls .. | explore
+open run.sh | explore
+open run.sh | less
+[]
+{}
+{"a":"b"}
+[[]]
+[[[],[],[]]]
+nv
+git clone https://github.com/nushell/nushell.git --depth 1
+nv
+./run.sh A.cpp
+./run.sh B.cpp
+./run.sh D.cpp
+./run.sh D2.cpp
+nv A wurst Composi
+ls
+nv "WurstCompsi.txt"
+ip a
+python
+exit
+sudo cp ~/Downloads/Just.Shapes.and.Beats.Gamdie.com.zip .
+wine JSB.exe
+python
+nv "WurstCompsi.txt"
+fastfetch
+uptime
+help uptime
+man uptime
+cmus
+cd .config/
+help write
+write
+help
+get
+ps
+help
+paru
+pacman -Si haskell-lpeg
+pacman -Sii haskell-lpeg
+pacman -Sii haskell-pandoc-lua-engine
+pacman -Sii haskell-pandoc
+pacman -Sii pandoc-cli
+sudo pacman -S pandoc
+ls *.txt
+open utility.txt
+rx
+ls
+sudo systemctl reboot
+rustup update
+omz update
+paru
+ls
+y
+sudo pacman -Si redis
+sudo pacman -R redis
+sudo pacman -S redis
+sudo pacman -R redis
+sudo pacman -Q redis
+paru redis
+paru -R redis
+sudo systemctl reboot
+sudo useradd guest
+cd /home/
+ls
+help usermod
+man usermod
+sudo usermod -m --home quest
+sudo adduser
+sudo usermod --home guest
+su guest
+sudo passwd guest
+su guest
+sudo usermod -m guest
+sudo usermod -d guest guest
+sudo usermod -d /home/guest guest
+ls
+cd guest
+mkdir guest
+sudo mkdir guest
+cd guest
+l
+ls
+touch a
+su guest
+cd ..
+chown
+chown guest /home/guest
+sudo chown guest /home/guest
+cd guest
+ls
+touch a
+su guest
+exit
+z imu
+gstat
+nv
+git add .
+cd Program/
+ls
+cd Just.Shapes.and.Beats.Gamdie.com/
+ls
+cd `Just Shapes and Beats v1.6.50/`
+ls
+ine JSB.exe
+wine JSB.exe
+exit
+gstat
+git add .
+cargo clean
+cargo check --all
+git commit
+git push
+git history
+git tree
+nvim
+y
+sudo umount /dev/sdb1
+finger]
+finger
+sudo pacman -S finger
+pinky
+cd Program/
+ls
+cd Just.Shapes.and.Beats.Gamdie.com/
+ls
+cd `Just Shapes and Beats v1.6.50/`
+ls
+wine JSB.exe
+paru
+sudo systemctl reboot
+z imu
+nv
+ping frp-gap.com:55879
+ping frp-gap.com
+ping frp-gap.com:58879
+ping frp-gap.com:55879
+git add .
+sudo systemctl reboot
+z imu
+nv
+git add .
+gstat
+tokei
+git add .
+gstat
+git add .
+cargo check --all
+git add .
+git commit
+git push
+gstat
+tokei
+z imu
+nv
+paru
+sudo systemctl reboot
+cd Workspace/Stu/Cpp/2025/Contest/
+ls
+mkdir 4-20
+cd 4-20
+ln ~/Workspace/Stu/templatis.cpp .
+ln ~/Workspace/Stu/run.sh .
+nv
+./run.sh A.cpp
+#include <cctype>
+}
+./run.sh A.cpp
+#########
+./run.sh A.cpp
+./run.sh A2.cpp
+./run.sh A3.cpp
+./run.sh A3.cpp < P6008_6.in
+./run.sh A3.cpp <P6008_6.in
+open P6008_6.in | ./run.sh A3.cpp
+./run.sh A3.cpp
+open P6008_6.in | ./run.sh A3.cpp
+open text.in | ./run.sh A3.cpp
+./run.sh A3.cpp
+open text.in | ./run.sh A3.cpp
+open text.in | ./run.sh A3.cpp | explore
+open text.in | ./run.sh A3.cpp | less
+open P6008_6.in | ./run.sh A3.cpp
+open acont.txt | ./run.sh A3.cpp
+open acont.txt | ./run.sh A3.cpp | less
+open texty.txt | ./run.sh A3.cpp
+open testy.txt | ./run.sh A3.cpp
+open acont.txt | ./run.sh A3.cpp | less
+open acont.txt | ./run.sh A3.cpp
+open acont.txt | ./run.sh A3.cpp | less
+open testy.txt | ./run.sh A3.cpp
+open acont.txt | ./run.sh A3.cpp | less
+open testy.txt | ./run.sh A3.cpp
+open acont.txt | ./run.sh A3.cpp | less
+open acont.txt | ./run.sh A3.cpp
+open P6008_6.in | ./run.sh A3.cpp
+open acont.txt | ./run.sh A3.cpp | less
+open testy.txt | ./run.sh A3.cpp | less
+open acont.txt | ./run.sh A3.cpp | less
+open testy.txt | ./run.sh A3.cpp | less
+nv
+./run.sh D.cpp
+./run.sh D.cpp\
+./run.sh D.cpp
+cgdb ./build/D.cpp
+cgdb ./build/D
+gdb ./build/D
+./run.sh D.cpp
+yazi
+unzip icefire.zip
+./run.sh D.cpp
+code icefire2.out
+./run.sh D.cpp
+code icefire2.ans
+./run.sh D.cpp
+cp ./A3.cpp /run/media/
+dolphin .
+cp `/run/media/impodog/N/Code/2025/Springs/4.17 SWOI-TEST2/wind.cpp`
+cp `/run/media/impodog/N/Code/2025/Springs/4.17 SWOI-TEST2/wind.cpp` .
+ls
+./run.sh wind.cpp
+cd `/run/media/impodog/N/Code/2025/Springs/4.17 SWOI-TEST2/`
+ls
+cp ~/Downloads/wind.zip .
+unzip wind.zip
+./run.sh wind.cpp
+fc
+cmp
+cmp --help
+cmp wind2.out wind2.ans
+cmp --help
+./run.sh wind.cpp
+cd `~/Program/Just.Shapes.and.Beats.Gamdie.com/Just Shapes and Beats v1.6.50/`
+exit
+wine JSB.exe
+z imu
+paru
+paru\
+paru
+nvim
+cd Workspace/Stu/Cpp/2025/ls
+cd Workspace/Stu/Cpp/2025/
+ls
+cd WV/
+ls
+cd summary-area/
+nv
+exit
+rustup update
+nvim
+paru
+z imu
+nv
+gstat
+nv
+cargo upgrade
+cargo upgrade --incompatible
+git add .
+gstat
+nvim
+paru
+sudo systemctl reboot
+cd `Program/Just.Shapes.and.Beats.Gamdie.com/Just Shapes and Beats v1.6.50/`
+paru zola
+wine JSB.exe
+z imu
+nv
+git add .
+gstat
+git add .
+nv
+git add .
+git commit
+git push
+tokei
+z imu
+nv
+git add .
+nvim
+rustup update
+paru
+sudo systemctl reboot
+nvim --versin
+nvim --version
+rustup update
+nvim
+paru
+sudo pacman -Rs pandoc
+sudo pacman -Rs pandoc-cli
+sudo systemctl reboot
+nu --version
+z imu
+ls
+glow README.md | explore
+glow README.md
+glow README.md | less
+cd ~/.config/nushell/
+ls
+nv
+cd ~/Temp/nushell/
+ls
+cd scripts/
+ls
+cd ..
+ls
+cd ~/Workspace/Stu/Cpp/2025/
+ls
+mkdir 5-1S
+cd 5-1S/
+ln ~/Workspace/Stu/run.sh .
+ln ~/Workspace/Stu/templatis.cpp .
+nv
+./run.sh A.cpp
+python
+./run.sh B.cpp
+python
+./run.sh B.cpp
+z 5-1S
+exit
+./run.sh B.cpp
+btop
+python
+./run.sh B.cpp
+pyhton
+python
+./run.sh E.cpp
+exit
+man explore
+help explore
+help explore | explore
+glow README.md | explore --tail
+glow README.md | explore --index
+open README.md | explore
+nv
+gstat
+cd Temp/nushell/
+ls
+cd crates/nu_plugin_gstat/
+ls
+nu install
+nu install .
+nu --help
+install
+install .
+install_plugin
+plugin install
+plugin --help
+plugin add nu_plugin_gstat
+plugin use gstat
+gstat
+cd ..
+plugin rm bin
+cd ~/.config
+ls
+ls | where ".txt" in name
+ls | where name ".txt"
+help where
+ls | where name =~ ".txt"
+explore utility.txt
+open utility.txt | explore
+exer
+open utility.txt | less
+hexer
+z imu
+git add .
+zoxide --help
+zoxide edit
+nv
+git add .
+gstat
+exit
+z imu
+exit
+z imu
+nv
+git .
+git add .
+nv
+git add .
+z 5-1S
+ls
+nv
+./run.sh C.cpp
+./run.sh TJTJTJT.cpp.cpp
+./run.sh TJTJTJT.cpp
+./run.sh C.cpp
+./run.sh TJTJTJT.cpp
+./run.sh C.cpp
+nv
+cd ~/Documents/Fun/
+ls
+mkdir 2025-EPHF
+cd 2025-EPHF/
+ls
+paru
+rustup update
+sudo systemctl reboot
+paru garamond
+fc-cache -fv
+sudo fc-cache -fv
+cd /usr/share/fonts
+ls
+cd gsfonts/
+ls
+cd ..
+ls
+cd TTF/
+ls
+cd ..
+ls
+cd util/
+ls
+cd ..
+cd gnu-free/
+ls
+cd ..
+paru font
+paru helvetica
+paru courier
+sudo systemctl reboot
+sudo pacman -R texlive
+paru helvetica
+fc-cache -fv
+sudo systemctl reboot
+python
+z imu
+gstat
+git add .
+gstat
+nv
+git commit
+git add .
+git commit
+git push
+paru
+rustup update
+fastfetch
+sudo systemctl reboot
+python
+exit
+rustup update
+paru
+sudo systemctl reboot
+z 5-1S
+nv
+python
+cd ..
+ls
+z imu
+nv
+vimtutor
+vimtutor 2
+vimtutor -c 2
+vimtutor
+nv
+git add .
+ga
+btop
+nv
+git add .
+git commit
+git push
+nvim
+paru
+nv
+tokei
+cd ~/Workspace/Stu/Cpp/2025
+cd Contest/
+mkdir 5-3
+cd 5-3/
+ln ~/Workspace/Stu/templatis.cpp .
+ln ~/Workspace/Stu/run.sh .
+nv
+./run.sh A.cpp
+1 2
+./run.sh C.cpp
+nv
+./run.sh C.cpp
+#include <cctype>
+./run.sh C.cpp
+./run.sh test.cpp
+./run.sh C.cpp
+./run.sh test.cpp
+./run.sh C.cpp
+cd `Program/Just.Shapes.and.Beats.Gamdie.com/Just Shapes and Beats v1.6.50/`
+wine JSB.exe
+z imu
+nv
+paru
+z imu

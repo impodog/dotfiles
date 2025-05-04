@@ -6,3 +6,7 @@ local opt = { noremap = true, silent = true }
 
 -- Remappings
 map("n", "x", '"_x', opt)
+map("n", "d", '"_d', opt)
+map("v", "d", '"_d', opt)
+map("n", "c", '"_c', opt)
+map("v", "c", '"_c', opt)
