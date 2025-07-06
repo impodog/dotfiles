@@ -60,4 +60,7 @@ alias bwraprun="bwrap \
     --setenv XDG_RUNTIME_DIR '/run/user/1000' --dev-bind /run/user/1000/pulse /run/user/1000/pulse \
     --setenv DISPLAY ':0'"
 
+# uv mirror
+export UV_DEFAULT_INDEX=https://pypi.tuna.tsinghua.edu.cn/simple
+
 # Custom shortcuts

@@ -12,6 +12,7 @@ $env.QT_IM_MODULE = "fcitx"
 $env.SDL_IM_MODULE = "fcitx"
 $env.GLFW_IM_MODULE = "fcitx"
 $env.XMODIFIERS = "@im = fcitx"
+$env.UV_DEFAULT_INDEX = "https://pypi.tuna.tsinghua.edu.cn/simple"
 
 # Zoxide init
 zoxide init nushell | save -f ~/.zoxide.nu

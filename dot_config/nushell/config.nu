@@ -9,6 +9,7 @@ alias gdb = cgdb
 
 # Program init config
 source ~/.config/nushell/plugin.nu
+source ~/.config/nushell/data.nu
 source ~/.zoxide.nu
 def --env y [...args] {
 	let tmp = (mktemp -t "yazi-cwd.XXXXXX")
