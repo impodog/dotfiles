@@ -6,6 +6,7 @@ $env.config.show_banner = false
 
 # Program aliases
 alias gdb = cgdb
+alias firefox = firefox-developer-edition
 
 # Program init config
 source ~/.config/nushell/plugin.nu

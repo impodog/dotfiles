@@ -1,4 +1,4 @@
-$env.PATH = ($env.PATH | prepend ["/usr/local/bin", path join [$env.HOME, "/.cargo/bin"]])
+$env.PATH = ($env.PATH | prepend ["/usr/local/bin", ($env.HOME | path join ".cargo/bin"), ($env.HOME | path join ".local/share/uv/tools/links/")])
 if "LD_LIBRARY_PATH" not-in $env {
     $env.LD_LIBRARY_PATH = []
 }
